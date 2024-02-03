@@ -50,7 +50,7 @@ public class DemoApplication implements CommandLineRunner {
 		emp.setManagerId(101L);
 				
 		repository.insertSkillWithEmp(emp,skill);
-		System.out.print("HI");
+
 		
     }
 		
