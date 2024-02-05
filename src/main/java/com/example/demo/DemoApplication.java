@@ -51,7 +51,8 @@ public class DemoApplication implements CommandLineRunner {
 				
 		repository.insertSkillWithEmp(emp,skill);
 
-		
+		System.out.println("Hi");
+		System.out.print("Koushik");
     }
 		
 		/*Employee emp = repository.findEmpLst(12L);
